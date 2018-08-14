@@ -237,6 +237,25 @@ CREATE TABLE IF NOT EXISTS `proyecto`.`lineasCompra` (
 ENGINE = InnoDB;
 
 
+CREATE TABLE IF NOT EXISTS `proyecto`.`listaProductos` (
+  `productos_idProducto` INT NOT NULL,
+  `rubros_idRubro` INT NOT NULL,
+  PRIMARY KEY (`productos_idProducto`, `rubros_idRubro`),
+  INDEX `fk_productos_has_rubros_rubros1_idx` (`rubros_idRubro` ASC),
+  INDEX `fk_productos_has_rubros_productos1_idx` (`productos_idProducto` ASC),
+  CONSTRAINT `fk_productos_has_rubros_productos1`
+    FOREIGN KEY (`productos_idProducto`)
+    REFERENCES `proyecto`.`productos` (`idProducto`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION,
+  CONSTRAINT `fk_productos_has_rubros_rubros1`
+    FOREIGN KEY (`rubros_idRubro`)
+    REFERENCES `proyecto`.`rubros` (`idRubro`)
+    ON DELETE NO ACTION
+    ON UPDATE NO ACTION)
+ENGINE = InnoDB;
+
+
 SET SQL_MODE=@OLD_SQL_MODE;
 SET FOREIGN_KEY_CHECKS=@OLD_FOREIGN_KEY_CHECKS;
 SET UNIQUE_CHECKS=@OLD_UNIQUE_CHECKS;
