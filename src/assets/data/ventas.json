@@ -1,0 +1,323 @@
+[{
+        "idVenta": 0,
+        "idEmpleado": 5,
+        "fechaCompra": "15-03-2016",
+        "total": "$446.65",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 1,
+        "idEmpleado": 7,
+        "fechaCompra": "23-05-2016",
+        "total": "$314.00",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 2,
+        "idEmpleado": 3,
+        "fechaCompra": "12-01-2016",
+        "total": "$453.90",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 3,
+        "idEmpleado": 1,
+        "fechaCompra": "25-06-2014",
+        "total": "$386.09",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 4,
+        "idEmpleado": 2,
+        "fechaCompra": "22-01-2017",
+        "total": "$277.60",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 5,
+        "idEmpleado": 5,
+        "fechaCompra": "29-06-2018",
+        "total": "$83.23",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 6,
+        "idEmpleado": 6,
+        "fechaCompra": "14-12-2017",
+        "total": "$398.10",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 7,
+        "idEmpleado": 3,
+        "fechaCompra": "02-09-2014",
+        "total": "$111.93",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 8,
+        "idEmpleado": 7,
+        "fechaCompra": "28-03-2014",
+        "total": "$99.46",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 9,
+        "idEmpleado": 3,
+        "fechaCompra": "14-07-2016",
+        "total": "$357.96",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 10,
+        "idEmpleado": 10,
+        "fechaCompra": "26-10-2015",
+        "total": "$160.18",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 11,
+        "idEmpleado": 1,
+        "fechaCompra": "01-02-2014",
+        "total": "$396.36",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 12,
+        "idEmpleado": 7,
+        "fechaCompra": "11-02-2014",
+        "total": "$153.87",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 13,
+        "idEmpleado": 6,
+        "fechaCompra": "25-08-2016",
+        "total": "$177.54",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 14,
+        "idEmpleado": 8,
+        "fechaCompra": "08-03-2016",
+        "total": "$208.33",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 15,
+        "idEmpleado": 5,
+        "fechaCompra": "13-03-2018",
+        "total": "$238.79",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 16,
+        "idEmpleado": 4,
+        "fechaCompra": "24-03-2016",
+        "total": "$310.77",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 17,
+        "idEmpleado": 9,
+        "fechaCompra": "21-05-2018",
+        "total": "$272.18",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 18,
+        "idEmpleado": 4,
+        "fechaCompra": "16-04-2014",
+        "total": "$184.87",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 19,
+        "idEmpleado": 5,
+        "fechaCompra": "21-01-2014",
+        "total": "$344.07",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 20,
+        "idEmpleado": 5,
+        "fechaCompra": "23-08-2018",
+        "total": "$429.48",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 21,
+        "idEmpleado": 10,
+        "fechaCompra": "21-01-2015",
+        "total": "$224.27",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 22,
+        "idEmpleado": 6,
+        "fechaCompra": "24-01-2014",
+        "total": "$432.89",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 23,
+        "idEmpleado": 9,
+        "fechaCompra": "25-07-2018",
+        "total": "$415.62",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 24,
+        "idEmpleado": 1,
+        "fechaCompra": "01-09-2014",
+        "total": "$125.80",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 25,
+        "idEmpleado": 1,
+        "fechaCompra": "31-10-2015",
+        "total": "$436.94",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 26,
+        "idEmpleado": 1,
+        "fechaCompra": "19-04-2014",
+        "total": "$374.74",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 27,
+        "idEmpleado": 6,
+        "fechaCompra": "17-08-2014",
+        "total": "$327.36",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 28,
+        "idEmpleado": 7,
+        "fechaCompra": "25-04-2014",
+        "total": "$465.54",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 29,
+        "idEmpleado": 2,
+        "fechaCompra": "09-03-2017",
+        "total": "$10.28",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 30,
+        "idEmpleado": 5,
+        "fechaCompra": "09-08-2018",
+        "total": "$475.97",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 31,
+        "idEmpleado": 1,
+        "fechaCompra": "28-03-2014",
+        "total": "$344.73",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 32,
+        "idEmpleado": 3,
+        "fechaCompra": "01-08-2014",
+        "total": "$268.54",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 33,
+        "idEmpleado": 1,
+        "fechaCompra": "02-01-2016",
+        "total": "$82.46",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 34,
+        "idEmpleado": 4,
+        "fechaCompra": "17-06-2017",
+        "total": "$247.08",
+        "observaciones": "Light"
+    },
+    {
+        "idVenta": 35,
+        "idEmpleado": 7,
+        "fechaCompra": "13-09-2015",
+        "total": "$338.54",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 36,
+        "idEmpleado": 4,
+        "fechaCompra": "23-11-2015",
+        "total": "$427.84",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 37,
+        "idEmpleado": 2,
+        "fechaCompra": "12-07-2015",
+        "total": "$361.81",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 38,
+        "idEmpleado": 3,
+        "fechaCompra": "28-06-2017",
+        "total": "$350.33",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 39,
+        "idEmpleado": 2,
+        "fechaCompra": "29-01-2018",
+        "total": "$450.61",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 40,
+        "idEmpleado": 9,
+        "fechaCompra": "21-03-2018",
+        "total": "$268.28",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 41,
+        "idEmpleado": 7,
+        "fechaCompra": "02-10-2014",
+        "total": "$88.20",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 42,
+        "idEmpleado": 3,
+        "fechaCompra": "08-02-2014",
+        "total": "$20.55",
+        "observaciones": "-"
+    },
+    {
+        "idVenta": 43,
+        "idEmpleado": 3,
+        "fechaCompra": "02-05-2017",
+        "total": "$198.31",
+        "observaciones": "En promoción"
+    },
+    {
+        "idVenta": 44,
+        "idEmpleado": 6,
+        "fechaCompra": "28-05-2016",
+        "total": "$75.98",
+        "observaciones": "Muy bueno"
+    },
+    {
+        "idVenta": 45,
+        "idEmpleado": 6,
+        "fechaCompra": "15-03-2016",
+        "total": "$153.95",
+        "observaciones": "Muy bueno"
+    }
+]

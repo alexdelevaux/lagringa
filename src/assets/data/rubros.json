@@ -1,0 +1,15 @@
+{
+    "data": [
+        { "idRubro": 1, "rubro": "Orgánico" },
+        { "idRubro": 2, "rubro": "Sin TACC" },
+        { "idRubro": 3, "rubro": "Sin Azúcar" },
+        { "idRubro": 4, "rubro": "Vegano" },
+        { "idRubro": 5, "rubro": "Semillas" },
+        { "idRubro": 6, "rubro": "Frutos Secos" },
+        { "idRubro": 7, "rubro": "Cereales" },
+        { "idRubro": 8, "rubro": "Harinas" },
+        { "idRubro": 9, "rubro": "Legumbres" },
+        { "idRubro": 10, "rubro": "Condimentos" }
+
+    ]
+}

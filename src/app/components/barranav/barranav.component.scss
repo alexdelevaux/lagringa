@@ -1,0 +1,90 @@
+button {
+    margin-right: .6em;
+    font-size: 1.3em;
+}
+
+#rubros {
+    background-color: #F44336;
+    color: white;
+    &:hover {
+        background-color: darken($color: #F44336, $amount: 10);
+    }
+}
+
+#productos {
+    background-color: #D81B60;
+    color: white;
+    &:hover {
+        background-color: darken($color: #D81B60, $amount: 10);
+    }
+}
+
+#empleados {
+    background-color: #8E24AA;
+    color: white;
+    &:hover {
+        background-color: darken($color: #8E24AA, $amount: 10);
+    }
+}
+
+#proveedores {
+    background-color: #3949AB;
+    color: white;
+    &:hover {
+        background-color: darken($color: #3949AB, $amount: 10);
+    }
+}
+
+#compras {
+    background-color: #1E88E5;
+    color: white;
+    &:hover {
+        background-color: darken($color: #1E88E5, $amount: 10);
+    }
+}
+
+#pedidos {
+    background-color: #26A69A;
+    color: white;
+    &:hover {
+        background-color: darken($color: #26A69A, $amount: 10);
+    }
+}
+
+#ventas {
+    background-color: #FFC400;
+    color: white;
+    &:hover {
+        background-color: darken($color: #FFC400, $amount: 10);
+    }
+}
+
+.botones {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.fijada {
+    position: fixed;
+}
+
+.menu-desplegable {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    .botones {
+        display: flex;
+        flex-direction: column;
+    }
+    button {
+        font-size: 0.8em;
+        margin: 2px 0;
+        display: none;
+    }
+    .menu-desplegable {
+        display: inline;
+    }
+}

@@ -1,0 +1,31 @@
+<h1 style="color:  rgb(226, 15, 156)">Proveedores</h1>
+
+<div class="text-center mb-3">
+    <button (click)="goBack()" type="button" class="btn" style="background-color: rgb(226, 15, 156); color: white; " label="Volver">Volver</button>
+</div>
+
+<p-table [value]="proveedores" [responsive]="true" [reorderableColumns]="true" [resizableColumns]="true">
+    <ng-template pTemplate="header">
+        <tr>
+            <th *ngFor="let columna of columnas" [pSortableColumn]="columna.field" pReorderableColumn pResizableColumn style="background-color: rgb(226, 15, 156); color: white; ">
+                {{ columna.header }}
+                <p-sortIcon [field]="columna.field" ariaLabel="Activate to sort" ariaLabelDesc="Activate to sort in descending order" ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
+
+
+            </th>
+
+        </tr>
+    </ng-template>
+
+    <ng-template pTemplate="body" let-proveedor>
+        <tr>
+            <td>{{proveedor.idProveedor}}</td>
+            <td>{{proveedor.razonSocial}}</td>
+            <td>{{proveedor.CUIT}}</td>
+            <td>{{proveedor.telefono}}</td>
+            <td>{{proveedor.direccion}}</td>
+            <td>{{proveedor.estado}}</td>
+            <td>{{proveedor.observacion}}</td>
+        </tr>
+    </ng-template>
+</p-table>

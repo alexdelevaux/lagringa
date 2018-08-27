@@ -1,0 +1,143 @@
+<h1 style="color: rgb(55, 53, 182)" class="my-3">Productos</h1>
+
+
+<div class="text-center mb-3">
+    <button (click)="goBack()" type="button" class="btn btn-primary " label="Volver">Volver</button>
+</div>
+
+<!-- p-table. Atributos importantes
+    [columns]="columnas" Permite la búsqueda global
+    [responsive]="true" Hace que la tabla sea responsiva (se vuelve vertical en pantallas pequeñas)
+    [reorderableColumns]="true" Permite reordenar columnas (NO ESTA FUNCIONANDO)
+    [resizableColumns]="true" Permite cambiar el tamaño de cada columna 
+-->
+<p-table #dt [columns]="columnas" [value]="productos" [responsive]="true">
+
+    <!-- Aquí la primera fila de la tabla donde va la barra de búsqueda -->
+
+    <ng-template pTemplate="caption">
+        <button type="button" style="margin-right: 5px" pButton (click)="showDialogToAdd()" label="Nuevo Producto"></button>
+
+        <i class="fa fa-search" style="color:dodgerblue; margin :4px 4px 0 0"></i>
+        <input type="text" pInputText size="50" placeholder="Búsqueda global" style="width: 40%;" (input)="dt.filterGlobal($event.target.value, 'contains')">
+
+    </ng-template>
+
+    <!-- Header. Contiene el nombre de cada tabla, el ícono que permite el sort y los inputs para buscar por cada columna -->
+
+    <ng-template pTemplate="header">
+
+        <tr>
+
+            <th *ngFor="let columna of columnas" [ngSwitch]="columna.field" [pSortableColumn]="columna.field" pReorderableColumn pResizableColumn style="background-color: rgb(73, 71, 184); color: white ">
+                {{ columna.header }}
+                <p-sortIcon [field]="columna.field" ariaLabel="Activate to sort" ariaLabelDesc="Activate to sort in descending order" ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
+            </th>
+
+        </tr>
+
+        <tr>
+            <th *ngFor="let col of columnas" [ngSwitch]="col.field">
+                <input pInputText *ngSwitchCase="'idProducto'" type="text" size="30" style="width: 100%;" (input)="dt.filter($event.target.value, col.field, col.filterMatchMode)">
+                <input pInputText *ngSwitchCase="'producto'" type="text" size="30" style="width: 100%;" (input)="dt.filter($event.target.value, col.field, col.filterMatchMode)">
+                <p-dropdown *ngSwitchCase="'estado'" [options]="estados" appendTo="body" [style]="{'overflow':'visible'}" (onChange)="dt.filter($event.value, col.field, 'equals')"></p-dropdown>
+                <div *ngSwitchCase="'precioVenta'">
+                    Valor mayor a: $ {{precioFilter}} <i class="fa fa-close" (click)="precioFilter=null;dt.filter(null, col.field, col.filterMatchMode)" style="cursor:pointer" *ngIf="precioFilter"></i>
+                    <p-slider [style]="{'width':'100%','margin-top':'8px'}" [(ngModel)]="precioFilter" [min]="0" [max]="200" (onChange)="onPrecioChange($event, dt)"></p-slider>
+                </div>
+
+                <p-calendar *ngSwitchCase="'fechaActualizacion'" [inputStyle]="{'width':'76%'}" appendTo="body" dateFormat="dd-mm-yy" [locale]="es" (onChange)="dt.filter($event.value, col.field, 'equals')" (input)="dt.filter($event.target.value, col.field, col.filterMatchMode)"></p-calendar>
+                <input pInputText *ngSwitchCase="'observaciones'" type="text" size="50" style="width: 100%;" (input)="dt.filter($event.target.value, col.field, col.filterMatchMode)">
+            </th>
+
+        </tr>
+    </ng-template>
+
+    <!-- El "body" o contenido de la tabla, es decir, los datos de cada fila -->
+
+    <ng-template pTemplate="body" let-producto let-rowData>
+        <tr [pSelectableRow]="rowData">
+            <td>{{producto.idProducto}}</td>
+            <td>{{producto.producto}}</td>
+            <td>{{producto.estado}}</td>
+            <td>{{producto.precioVenta}}</td>
+            <td>{{producto.fechaActualizacion}}</td>
+            <td>{{producto.observaciones}}</td>
+        </tr>
+    </ng-template>
+
+
+    <!-- El "summary", campo tipo footer donde va un resumen o el botón de agregar nuevo -->
+    <ng-template pTemplate="summary" let-rowData>
+        <div style="text-align:left">
+            <button type="button" pButton icon="fa fa-plus" (click)="showDialogToAdd()" label="Nuevo Producto"></button>
+        </div>
+    </ng-template>
+
+
+
+</p-table>
+
+
+
+<!-- Diálogo para agregar nuevo producto -->
+
+<p-dialog header="Detalle del producto" [(visible)]="displayDialog" [responsive]="true" showEffect="fade" [modal]="true" [width]="450">
+    <div class="ui-g ui-fluid" *ngIf="prod">
+        <div class="ui-g-12">
+            <div class="ui-g-4">
+                <label for="idProducto">ID </label>
+            </div>
+            <div class="ui-g-8">
+                <input pInputText id="idProducto" [(ngModel)]="prod.idProducto" />
+            </div>
+        </div>
+        <div class="ui-g-12">
+            <div class="ui-g-4">
+                <label for="producto">Producto </label>
+            </div>
+            <div class="ui-g-8">
+                <input pInputText id="producto" [(ngModel)]="prod.producto" />
+            </div>
+        </div>
+        <div class="ui-g-12">
+            <div class="ui-g-4">
+                <label for="estado">Estado </label>
+            </div>
+            <div class="ui-g-8">
+                <p-radioButton name="estado" label="Activo" value="A" [(ngModel)]="estado"></p-radioButton>
+                <p-radioButton name="estado" label="Inactivo" value="I" [(ngModel)]="estado"></p-radioButton>
+            </div>
+        </div>
+        <div class="ui-g-12">
+            <div class="ui-g-4">
+                <label for="precioVenta">Precio </label>
+            </div>
+            <div class="ui-g-8">
+                <input pInputText id="precioVenta" pKeyFilter="pnum" [(ngModel)]="prod.precioVenta" />
+            </div>
+        </div>
+        <div class="ui-g-12">
+            <div class="ui-g-4">
+                <label for="fechaActualizacion">Fecha </label>
+            </div>
+            <div class="ui-g-8">
+                <input pInputText id="fechaActualizacion" [(ngModel)]="prod.fechaActualizacion" />
+            </div>
+        </div>
+        <div class="ui-g-12">
+            <div class="ui-g-4">
+                <label for="observaciones">Observaciones</label>
+            </div>
+            <div class="ui-g-8">
+                <input pInputText id="observaciones" [(ngModel)]="prod.observaciones" />
+            </div>
+        </div>
+    </div>
+    <p-footer>
+        <div class="ui-dialog-buttonpane ui-helper-clearfix">
+            <!-- <button type="button" pButton icon="fa fa-close" (click)="delete()" label="Borrar"></button> -->
+            <button type="button" pButton icon="fa fa-check" (click)="save()" label="Guardar"></button>
+        </div>
+    </p-footer>
+</p-dialog>

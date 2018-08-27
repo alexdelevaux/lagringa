@@ -1,0 +1,41 @@
+{
+    "data": [{
+            "idEmpleado": 1,
+            "nombre": "Roberto",
+            "apellido": "Mosqueira",
+            "usuario": "robert",
+            "rol": "Admin",
+            "estado": "Activo",
+            "observacion": "Dueño"
+        },
+        {
+            "idEmpleado": 2,
+            "nombre": "Luli",
+            "apellido": "Critto",
+            "usuario": "luli",
+            "rol": "Admin",
+            "estado": "Activo",
+            "observacion": ""
+        },
+        {
+            "idEmpleado": 3,
+            "nombre": "Alejandro",
+            "apellido": "C. Delevaux",
+            "usuario": "alex",
+            "rol": "Front End",
+            "estado": "Activo",
+            "observacion": ""
+        },
+        {
+            "idEmpleado": 4,
+            "nombre": "Fernanda",
+            "apellido": "Valle",
+            "usuario": "fernet",
+            "rol": "Back End",
+            "estado": "Activo",
+            "observacion": ""
+        }
+
+
+    ]
+}

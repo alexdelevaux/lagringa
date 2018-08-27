@@ -1,0 +1,220 @@
+{
+    "data": [{
+            "idCompra": 0,
+            "idProveedor": 3,
+            "idPedido": 9,
+            "fechaCompra": "23-08-2016",
+            "total": "743.42"
+        },
+        {
+            "idCompra": 1,
+            "idProveedor": 4,
+            "idPedido": 2,
+            "fechaCompra": "02-01-2015",
+            "total": "2469.63"
+        },
+        {
+            "idCompra": 2,
+            "idProveedor": 3,
+            "idPedido": 10,
+            "fechaCompra": "15-03-2018",
+            "total": "3069.08"
+        },
+        {
+            "idCompra": 3,
+            "idProveedor": 2,
+            "idPedido": 1,
+            "fechaCompra": "28-05-2017",
+            "total": "150.36"
+        },
+        {
+            "idCompra": 4,
+            "idProveedor": 8,
+            "idPedido": 9,
+            "fechaCompra": "28-01-2016",
+            "total": "1826.07"
+        },
+        {
+            "idCompra": 5,
+            "idProveedor": 9,
+            "idPedido": 10,
+            "fechaCompra": "24-01-2017",
+            "total": "368.38"
+        },
+        {
+            "idCompra": 6,
+            "idProveedor": 9,
+            "idPedido": 8,
+            "fechaCompra": "09-07-2014",
+            "total": "1048.48"
+        },
+        {
+            "idCompra": 7,
+            "idProveedor": 2,
+            "idPedido": 4,
+            "fechaCompra": "04-05-2018",
+            "total": "1666.60"
+        },
+        {
+            "idCompra": 8,
+            "idProveedor": 2,
+            "idPedido": 8,
+            "fechaCompra": "17-05-2016",
+            "total": "3083.88"
+        },
+        {
+            "idCompra": 9,
+            "idProveedor": 4,
+            "idPedido": 7,
+            "fechaCompra": "19-12-2016",
+            "total": "1050.84"
+        },
+        {
+            "idCompra": 10,
+            "idProveedor": 7,
+            "idPedido": 3,
+            "fechaCompra": "16-01-2017",
+            "total": "833.20"
+        },
+        {
+            "idCompra": 11,
+            "idProveedor": 8,
+            "idPedido": 4,
+            "fechaCompra": "13-01-2014",
+            "total": "1429.91"
+        },
+        {
+            "idCompra": 12,
+            "idProveedor": 4,
+            "idPedido": 7,
+            "fechaCompra": "14-10-2014",
+            "total": "2784.96"
+        },
+        {
+            "idCompra": 13,
+            "idProveedor": 10,
+            "idPedido": 5,
+            "fechaCompra": "18-01-2015",
+            "total": "165.85"
+        },
+        {
+            "idCompra": 14,
+            "idProveedor": 4,
+            "idPedido": 5,
+            "fechaCompra": "15-01-2018",
+            "total": "2028.83"
+        },
+        {
+            "idCompra": 15,
+            "idProveedor": 5,
+            "idPedido": 6,
+            "fechaCompra": "07-03-2015",
+            "total": "800.16"
+        },
+        {
+            "idCompra": 16,
+            "idProveedor": 2,
+            "idPedido": 10,
+            "fechaCompra": "05-07-2016",
+            "total": "2685.40"
+        },
+        {
+            "idCompra": 17,
+            "idProveedor": 2,
+            "idPedido": 3,
+            "fechaCompra": "17-10-2014",
+            "total": "623.07"
+        },
+        {
+            "idCompra": 18,
+            "idProveedor": 1,
+            "idPedido": 6,
+            "fechaCompra": "10-11-2015",
+            "total": "884.93"
+        },
+        {
+            "idCompra": 19,
+            "idProveedor": 8,
+            "idPedido": 3,
+            "fechaCompra": "20-03-2016",
+            "total": "170.32"
+        },
+        {
+            "idCompra": 20,
+            "idProveedor": 4,
+            "idPedido": 3,
+            "fechaCompra": "27-07-2018",
+            "total": "3163.48"
+        },
+        {
+            "idCompra": 21,
+            "idProveedor": 4,
+            "idPedido": 9,
+            "fechaCompra": "04-06-2015",
+            "total": "3012.31"
+        },
+        {
+            "idCompra": 22,
+            "idProveedor": 9,
+            "idPedido": 3,
+            "fechaCompra": "13-06-2017",
+            "total": "3495.83"
+        },
+        {
+            "idCompra": 23,
+            "idProveedor": 4,
+            "idPedido": 8,
+            "fechaCompra": "12-10-2015",
+            "total": "2670.61"
+        },
+        {
+            "idCompra": 24,
+            "idProveedor": 9,
+            "idPedido": 9,
+            "fechaCompra": "11-09-2016",
+            "total": "2197.64"
+        },
+        {
+            "idCompra": 25,
+            "idProveedor": 1,
+            "idPedido": 1,
+            "fechaCompra": "08-11-2015",
+            "total": "453.01"
+        },
+        {
+            "idCompra": 26,
+            "idProveedor": 3,
+            "idPedido": 10,
+            "fechaCompra": "16-05-2015",
+            "total": "2413.45"
+        },
+        {
+            "idCompra": 27,
+            "idProveedor": 2,
+            "idPedido": 10,
+            "fechaCompra": "24-11-2015",
+            "total": "2430.06"
+        },
+        {
+            "idCompra": 28,
+            "idProveedor": 1,
+            "idPedido": 1,
+            "fechaCompra": "28-07-2015",
+            "total": "1590.78"
+        },
+        {
+            "idCompra": 29,
+            "idProveedor": 1,
+            "idPedido": 2,
+            "fechaCompra": "14-09-2014",
+            "total": "2829.95"
+        },
+        {
+            "idCompra": 30,
+            "idProveedor": 9,
+            "idPedido": 9,
+            "fechaCompra": "10-02-2014",
+            "total": "2064.89"
+        }
+    ]
+}

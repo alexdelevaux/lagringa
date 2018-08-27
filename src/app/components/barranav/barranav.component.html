@@ -1,0 +1,27 @@
+<p-toolbar>
+    <!-- <div class="ui-toolbar-group-left botones"> -->
+
+    <div class="botones">
+        <button type="button" class="btn btn-sm" id="rubros" [routerLink]="['/rubros']">Rubros</button>
+        <button type="button" class="btn btn-sm" id="productos" [routerLink]="['/productos']">Productos</button>
+        <button type="button" class="btn btn-sm" id="empleados" [routerLink]="['/empleados']">Empleados</button>
+        <button type="button" class="btn btn-sm" id="proveedores" [routerLink]="['/proveedores']">Proveedores</button>
+        <button type="button" class="btn btn-sm" id="compras" [routerLink]="['/compras']">Compras</button>
+        <button type="button" class="btn btn-sm" id="pedidos" [routerLink]="['/pedidos']">Pedidos</button>
+        <button type="button" class="btn btn-sm" id="ventas" [routerLink]="['/ventas']">Ventas</button>
+    </div>
+
+    <div class="menu-desplegable">
+        <p-panelMenu [model]="items" [style]="{'width':'300px'}"></p-panelMenu>
+    </div>
+
+
+    <!-- 
+    </div> -->
+
+    <!-- <div class="ui-toolbar-group-right">
+        <button pButton type="button" icon="pi pi-search"></button>
+        <button pButton type="button" icon="pi pi-calendar" class="ui-button-success"></button>
+        <button pButton type="button" icon="pi pi-times" class="ui-button-danger"></button>
+    </div> -->
+</p-toolbar>

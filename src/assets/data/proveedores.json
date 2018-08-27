@@ -1,0 +1,41 @@
+{
+    "data": [{
+            "idProveedor": 41,
+            "razonSocial": "La Granja Loca",
+            "CUIT": "20-5120505-5",
+            "telefono": "4838192",
+            "direccion": "Las Piedras 530",
+            "estado": "Activo",
+            "observacion": "Dueño"
+        },
+        {
+            "idProveedor": 679,
+            "razonSocial": "Chia y Cia.",
+            "CUIT": "34-312312-4",
+            "telefono": "38145995123",
+            "direccion": "Cariola 203",
+            "estado": "Activo",
+            "observacion": "Muy buena chica"
+        },
+        {
+            "idProveedor": 93,
+            "razonSocial": "Electronica Valle",
+            "CUIT": "24915912",
+            "telefono": "381969102",
+            "direccion": "Crisostomo 253",
+            "estado": "Activo",
+            "observacion": "Electronica para comida"
+        },
+        {
+            "idProveedor": 74,
+            "razonSocial": "Los Pollos Hermanos",
+            "CUIT": "381238192",
+            "telefono": "381695912",
+            "direccion": "Av. Aconquija 2020",
+            "estado": "Activo",
+            "observacion": "Los mejores pollos"
+        }
+
+
+    ]
+}

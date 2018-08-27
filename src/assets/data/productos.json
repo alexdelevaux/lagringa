@@ -1,0 +1,355 @@
+{
+    "data": [{
+            "idProducto": 0,
+            "producto": "Yerba",
+            "estado": "Inactivo",
+            "precioVenta": "66.23",
+            "fechaActualizacion": "30-09-2015",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 1,
+            "producto": "Jugo",
+            "estado": "Inactivo",
+            "precioVenta": "79.06",
+            "fechaActualizacion": "20-09-2014",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 2,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "40.36",
+            "fechaActualizacion": "09-12-2017",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 3,
+            "producto": "Jugo",
+            "estado": "Activo",
+            "precioVenta": "73.53",
+            "fechaActualizacion": "09-07-2015",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 4,
+            "producto": "Jugo",
+            "estado": "Inactivo",
+            "precioVenta": "81.52",
+            "fechaActualizacion": "23-11-2015",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 5,
+            "producto": "Yerba",
+            "estado": "Inactivo",
+            "precioVenta": "88.2",
+            "fechaActualizacion": "15-01-2017",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 6,
+            "producto": "Yerba",
+            "estado": "Inactivo",
+            "precioVenta": "73.08",
+            "fechaActualizacion": "19-11-2017",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 7,
+            "producto": "Jugo",
+            "estado": "Inactivo",
+            "precioVenta": "84.86",
+            "fechaActualizacion": "30-06-2018",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 8,
+            "producto": "Snack",
+            "estado": "Activo",
+            "precioVenta": "95.94",
+            "fechaActualizacion": "14-12-2017",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 9,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "40.5",
+            "fechaActualizacion": "19-04-2016",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 10,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "98.35",
+            "fechaActualizacion": "17-08-2017",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 11,
+            "producto": "Snack",
+            "estado": "Inactivo",
+            "precioVenta": "33.27",
+            "fechaActualizacion": "17-07-2016",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 12,
+            "producto": "Jugo",
+            "estado": "Activo",
+            "precioVenta": "31.87",
+            "fechaActualizacion": "12-08-2014",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 13,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "57.69",
+            "fechaActualizacion": "05-03-2017",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 14,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "50.1",
+            "fechaActualizacion": "26-01-2016",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 15,
+            "producto": "Snack",
+            "estado": "Activo",
+            "precioVenta": "83.04",
+            "fechaActualizacion": "01-11-2017",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 16,
+            "producto": "Jugo",
+            "estado": "Inactivo",
+            "precioVenta": "81.36",
+            "fechaActualizacion": "28-03-2015",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 17,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "38.79",
+            "fechaActualizacion": "08-07-2018",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 18,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "35.2",
+            "fechaActualizacion": "26-07-2018",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 19,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "54.93",
+            "fechaActualizacion": "26-05-2018",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 20,
+            "producto": "Yerba",
+            "estado": "Activo",
+            "precioVenta": "26.5",
+            "fechaActualizacion": "12-04-2014",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 21,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "55.2",
+            "fechaActualizacion": "23-03-2014",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 22,
+            "producto": "Yerba",
+            "estado": "Activo",
+            "precioVenta": "39.07",
+            "fechaActualizacion": "05-07-2014",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 23,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "41.24",
+            "fechaActualizacion": "24-04-2017",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 24,
+            "producto": "Jugo",
+            "estado": "Inactivo",
+            "precioVenta": "37.76",
+            "fechaActualizacion": "30-08-2016",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 25,
+            "producto": "Yerba",
+            "estado": "Inactivo",
+            "precioVenta": 28,
+            "fechaActualizacion": "28-05-2016",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 26,
+            "producto": "Yerba",
+            "estado": "Activo",
+            "precioVenta": "26.21",
+            "fechaActualizacion": "26-06-2018",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 27,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "57.87",
+            "fechaActualizacion": "26-06-2016",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 28,
+            "producto": "Snack",
+            "estado": "Activo",
+            "precioVenta": "90.29",
+            "fechaActualizacion": "06-05-2016",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 29,
+            "producto": "Snack",
+            "estado": "Activo",
+            "precioVenta": "87.51",
+            "fechaActualizacion": "10-01-2018",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 30,
+            "producto": "Snack",
+            "estado": "Inactivo",
+            "precioVenta": "66.18",
+            "fechaActualizacion": "22-02-2017",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 31,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "59.18",
+            "fechaActualizacion": "03-02-2014",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 32,
+            "producto": "Snack",
+            "estado": "Activo",
+            "precioVenta": "81.12",
+            "fechaActualizacion": "12-04-2018",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 33,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "94.55",
+            "fechaActualizacion": "27-04-2018",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 34,
+            "producto": "Jugo",
+            "estado": "Inactivo",
+            "precioVenta": "93.81",
+            "fechaActualizacion": "04-10-2017",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 35,
+            "producto": "Snack",
+            "estado": "Inactivo",
+            "precioVenta": "35.3",
+            "fechaActualizacion": "05-10-2015",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 36,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "21.19",
+            "fechaActualizacion": "24-01-2015",
+            "observaciones": "Light"
+        },
+        {
+            "idProducto": 37,
+            "producto": "Cereal",
+            "estado": "Inactivo",
+            "precioVenta": "87.59",
+            "fechaActualizacion": "17-12-2017",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 38,
+            "producto": "Yerba",
+            "estado": "Inactivo",
+            "precioVenta": "33.96",
+            "fechaActualizacion": "12-04-2017",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 39,
+            "producto": "Yerba",
+            "estado": "Inactivo",
+            "precioVenta": "15.54",
+            "fechaActualizacion": "14-10-2016",
+            "observaciones": "En promoción"
+        },
+        {
+            "idProducto": 40,
+            "producto": "Snack",
+            "estado": "Inactivo",
+            "precioVenta": "10.62",
+            "fechaActualizacion": "30-10-2015",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 41,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "87.76",
+            "fechaActualizacion": "04-06-2017",
+            "observaciones": "-"
+        },
+        {
+            "idProducto": 42,
+            "producto": "Snack",
+            "estado": "Inactivo",
+            "precioVenta": "10.91",
+            "fechaActualizacion": "01-10-2015",
+            "observaciones": "Muy bueno"
+        },
+        {
+            "idProducto": 43,
+            "producto": "Cereal",
+            "estado": "Activo",
+            "precioVenta": "16.79",
+            "fechaActualizacion": "31-08-2017",
+            "observaciones": "Light"
+        }
+    ]
+}
