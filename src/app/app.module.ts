@@ -27,6 +27,8 @@ import { BarranavComponent } from './components/barranav/barranav.component';
 import { RubrosComponent } from './components/rubros/rubros.component';
 import { AppRoutingModule } from './app-routing.module';
 import {PanelMenuModule} from 'primeng/panelmenu';
+import {SidebarModule} from 'primeng/sidebar';
+
 
 
 import { RubrosService } from './services/rubros.service';
@@ -43,6 +45,7 @@ import { PedidosComponent } from './components/pedidos/pedidos.component';
 import { ComprasService } from './services/compras.service';
 import { VentasService } from './services/ventas.service';
 import { PedidosService } from './services/pedidos.service';
+import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 
 
@@ -59,6 +62,7 @@ import { PedidosService } from './services/pedidos.service';
         ComprasComponent,
         VentasComponent,
         PedidosComponent,
+        DashboardComponent,
     ],
     imports: [
         ToolbarModule,
@@ -80,7 +84,8 @@ import { PedidosService } from './services/pedidos.service';
         SliderModule,
         CalendarModule,
         KeyFilterModule,
-        RadioButtonModule
+        RadioButtonModule,
+        SidebarModule
     ],
     providers: [
         RubrosService,

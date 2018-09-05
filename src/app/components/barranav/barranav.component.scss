@@ -1,6 +1,19 @@
 button {
     margin-right: .6em;
     font-size: 1.3em;
+    border-radius: 10px;
+}
+
+#boton-side {
+    display: none;
+}
+
+#home {
+    background-color: rgb(59, 59, 59);
+    color: white;
+    &:hover {
+        background-color: darken($color: rgb(59, 59, 59), $amount: 10);
+    }
 }
 
 #rubros {
@@ -59,32 +72,91 @@ button {
     }
 }
 
-.botones {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
-.fijada {
-    position: fixed;
-}
-
-.menu-desplegable {
-    display: none;
-}
-
-@media (max-width: 600px) {
+@media screen and (max-width: 500px) {
     .botones {
-        display: flex;
-        flex-direction: column;
-    }
-    button {
-        font-size: 0.8em;
-        margin: 2px 0;
         display: none;
     }
-    .menu-desplegable {
+    #boton-side {
         display: inline;
+    }
+    #home {
+        background-color: white;
+        color: rgb(59, 59, 59);
+        border: 1px solid rgb(59, 59, 59);
+        &:hover {
+            background-color: lighten($color: rgb(59, 59, 59), $amount: 10);
+            border: 1px solid darken($color: rgb(59, 59, 59), $amount: 20);
+            color: white;
+        }
+    }
+    #rubros {
+        background-color: white;
+        color: #F44336;
+        border: 1px solid #F44336;
+        &:hover {
+            background-color: lighten($color: #F44336, $amount: 10);
+            border: 1px solid darken($color: #F44336, $amount: 20);
+            color: white;
+        }
+    }
+    #productos {
+        background-color: white;
+        color: #D81B60;
+        border: 1px solid #D81B60;
+        &:hover {
+            background-color: lighten($color: #D81B60, $amount: 10);
+            border: 1px solid darken($color: #D81B60, $amount: 20);
+            color: white;
+        }
+    }
+    #empleados {
+        background-color: white;
+        color: #8E24AA;
+        border: 1px solid #8E24AA;
+        &:hover {
+            background-color: lighten($color: #8E24AA, $amount: 10);
+            border: 1px solid darken($color: #8E24AA, $amount: 20);
+            color: white;
+        }
+    }
+    #proveedores {
+        background-color: white;
+        color: #3949AB;
+        border: 1px solid #3949AB;
+        &:hover {
+            background-color: lighten($color: #3949AB, $amount: 10);
+            border: 1px solid darken($color: #3949AB, $amount: 20);
+            color: white;
+        }
+    }
+    #compras {
+        background-color: white;
+        color: #1E88E5;
+        border: 1px solid #1E88E5;
+        &:hover {
+            background-color: lighten($color: #1E88E5, $amount: 10);
+            border: 1px solid darken($color: #1E88E5, $amount: 20);
+            color: white;
+        }
+    }
+    #pedidos {
+        background-color: white;
+        border: 1px solid #26A69A;
+        color: #26A69A;
+        &:hover {
+            background-color: lighten($color: #26A69A, $amount: 10);
+            border: 1px solid darken($color: #26A69A, $amount: 20);
+            color: white;
+        }
+    }
+    #ventas {
+        background-color: white;
+        border: 1px solid rgb(163, 127, 9);
+        color: rgb(163, 127, 9);
+        &:hover {
+            background-color: darken($color: rgb(163, 127, 9), $amount: 10);
+            border: 1px solid darken($color: rgb(163, 127, 9), $amount: 20);
+            color: white;
+        }
     }
 }

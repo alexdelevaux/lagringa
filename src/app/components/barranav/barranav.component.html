@@ -1,7 +1,10 @@
 <p-toolbar>
     <!-- <div class="ui-toolbar-group-left botones"> -->
 
-    <div class="botones">
+    <button pButton style="background: transparent; color: black; border: 0px;" type="button" id="boton-side" (click)="visibleSidebar1 = true" icon="pi pi-bars"></button>
+
+    <div class="botones ui-toolbar-group-left">
+        <button type="button" class="btn btn-sm" id="home" [routerLink]="['/']">Home</button>
         <button type="button" class="btn btn-sm" id="rubros" [routerLink]="['/rubros']">Rubros</button>
         <button type="button" class="btn btn-sm" id="productos" [routerLink]="['/productos']">Productos</button>
         <button type="button" class="btn btn-sm" id="empleados" [routerLink]="['/empleados']">Empleados</button>
@@ -11,17 +14,25 @@
         <button type="button" class="btn btn-sm" id="ventas" [routerLink]="['/ventas']">Ventas</button>
     </div>
 
-    <div class="menu-desplegable">
-        <p-panelMenu [model]="items" [style]="{'width':'300px'}"></p-panelMenu>
-    </div>
-
-
-    <!-- 
-    </div> -->
-
-    <!-- <div class="ui-toolbar-group-right">
-        <button pButton type="button" icon="pi pi-search"></button>
+    <div class="ui-toolbar-group-right">
+        <button pButton type="button" icon="pi pi-user"></button>
         <button pButton type="button" icon="pi pi-calendar" class="ui-button-success"></button>
         <button pButton type="button" icon="pi pi-times" class="ui-button-danger"></button>
-    </div> -->
+
+    </div>
+
 </p-toolbar>
+
+<p-sidebar [(visible)]="visibleSidebar1" [baseZIndex]="10000">
+    <h1 style="font-weight:normal">Navegar</h1>
+    <div class="botones-vertical">
+        <button type="button" class="btn btn-lg btn-block" id="home" [routerLink]="['/']">Home</button>
+        <button type="button" class="btn btn-lg btn-block" id="rubros" [routerLink]="['/rubros']">Rubros</button>
+        <button type="button" class="btn btn-lg btn-block" id="productos" [routerLink]="['/productos']">Productos</button>
+        <button type="button" class="btn btn-lg btn-block" id="empleados" [routerLink]="['/empleados']">Empleados</button>
+        <button type="button" class="btn btn-lg btn-block" id="proveedores" [routerLink]="['/proveedores']">Proveedores</button>
+        <button type="button" class="btn btn-lg btn-block" id="compras" [routerLink]="['/compras']">Compras</button>
+        <button type="button" class="btn btn-lg btn-block" id="pedidos" [routerLink]="['/pedidos']">Pedidos</button>
+        <button type="button" class="btn btn-lg btn-block" id="ventas" [routerLink]="['/ventas']">Ventas</button>
+    </div>
+</p-sidebar>
